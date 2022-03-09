@@ -1,0 +1,292 @@
+@media screen and (max-width: 1550px){
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        padding: 18px 7%;
+    }
+    section{
+        padding: 50px 7%;
+    }
+    .home-text h1{
+        font-size: 6em;
+    }
+    .home-text h2{
+        font-size: 1.5em;
+    }
+    .explain-text p, .about-text p{
+    font-size: 1.5em;
+    }
+    .explain-img img{
+        width: 100%;
+        height: 80%;
+    }
+    .orgz-card-right, .orgz-card-left{
+        flex: 1em;
+        height: 80vh;
+    }
+    .about-text .video-profil iframe{
+        width: 90%;
+        height: 75vh;
+    }
+    .about-text span{
+        font-size: 1.3em;
+    }
+    .content-btn{
+        margin-top: 1.8em;
+    }
+}
+
+
+@media (max-width: 1150px){
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        padding: 18px 7%;
+    }
+    section{
+        padding: 50px 7%;
+    }
+    .home-text h1{
+        font-size: 4em;
+    }
+    .home-text h2{
+        font-size: 1.2em;
+    }
+    .home-text span{
+        font-size: 1.7em;
+    }
+    .explain-text p, .about-text p{
+        font-size: 1em;
+    }
+    .explain-img img{
+            width: 100%;
+            height: 80%;
+    }
+    .explain-text{
+        margin-top: 2%;
+    }
+    .orgz-card-right, .orgz-card-left{
+        width: 90%;
+        height: 70vh;
+    }
+    .orgz-card-right h2{
+        font-size: 2em;
+    }
+    .orgz-card-right span{
+        font-size: 1.2em;
+        margin-top: 0.6em;
+    }
+    .orgz-card-right p{
+        margin-top: 0.6em;
+        font-size: 0.9em;
+    }
+    .content-btn{
+        width: 27%;
+        font-size: 1em;
+        padding: 0.8em 0.8em;
+    }
+    .about-text .video-profil iframe{
+        width: 90%;
+        height: 70vh;
+    }
+}
+
+@media(max-width: 770px){
+    body{
+        overflow-x: hidden;
+    }
+    .home-text{
+        padding-top: inherit;
+    }
+    .explain-container .box{
+        margin-top: 6rem;
+    }
+    .heading h3{
+        font-size: 1.5rem;
+    }
+    .app{
+        flex-direction: column-reverse;
+    }
+    .orgz-card-right, .orgz-card-left{
+        flex: 1em;
+        height: 60vh;
+    }
+    .explain .container{
+        flex-direction: column;
+    }
+    .explain-img{
+        display: flex;
+        justify-content: center;
+    }
+    .explain-img img{
+        width: 60%;
+        height: 115%;
+    }
+    .explain-text{
+        flex: 1 1 10em;
+        margin-top: 5%;
+    }
+    .about-text .video-profil iframe{
+        width: 80%;
+        height: 40vh;
+    }
+    .activities .heading h3{
+        font-size: 1.5em;
+    }
+    .activities-box h2{
+        font-size: 1.2em;
+    }
+    .activities-box p{
+        font-size: 0.8em;
+    }
+    .orgz-card-right h2{
+        font-size: 1.5em;
+    }
+    .orgz-card-right span{
+        font-size: 0.8em;
+        margin-top: 0.6em;
+    }
+    .orgz-card-right p{
+        margin-top: 0.6em;
+        font-size: 0.9em;
+        font-weight: 400;
+    }
+    .activities .container-activites{
+        padding-block: 1em;
+    }
+    .content-btn{
+        width: 25%;
+        font-size: 0.9em;
+        padding: 0.8em 0.8em;
+        margin-top: 1em;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .links{
+        height: 10em;
+    }
+    .links .bye{ 
+        margin-bottom: 1em;
+    }
+    .links .email-box{
+        padding: 0.5em 0 0.5em 1em ;
+    }
+    .links .bye h1{
+        font-size: 1.5em;
+    }
+    .visit{
+        margin-top: 1em;
+    }
+    .social{
+        margin-top: 4%;
+    }
+}
+
+@media(max-width: 430px){
+    body{
+        overflow-x: hidden;
+    }
+    .home-text h1{
+        font-size: 3em;
+    }
+    .home-text h2{
+        font-size: 0.9em;
+    }
+    .home-text span{
+        font-size: 1.4em;
+    }
+    .btn{
+        font-size: 1em;
+    }
+    .explain-img img{
+        width: 80%;
+        height: 90%;
+    }
+    .about-text .video-profil iframe{
+        width: 90%;
+        height: 30vh;
+    }
+    .about-text span{
+        font-size: 1em;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        margin: 0.5em;
+    }
+    .orgz-card-right, .orgz-card-left{
+        flex: 1em;
+        height: 50vh;
+    }
+    .orgz-card-right h2{
+        font-size: 1.2em;
+    }
+    .orgz-card-right span{
+        font-size: 0.7em;
+        margin-top: 0.6em;
+    }
+    .orgz-card-right p{
+        margin-top: 0.6em;
+        font-size: 0.9em;
+        font-weight: 400;
+    }
+    .content-btn{
+        width: 50%;
+        font-size: 0.9em;
+        margin-top: 1em;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .home-text h1{
+        font-size: 2em;
+    }
+    .home-text h2{
+        font-size: 0.9em;
+    }
+    .home-text span{
+        font-size: 1.1em;
+    }
+    .btn{
+        font-size: 0.65em;
+    }
+    .explain-img img{
+        width: 80%;
+        height: 100%;
+    }
+    .about-text .video-profil iframe{
+        width: 100%;
+        height: 20vh;
+    }
+    .about-text span{
+        font-size: 0.8em;
+    }
+    .orgz-card-right, .orgz-card-left{
+        flex: 1em;
+        height: 45vh;
+    }
+    .orgz-card-right{
+        padding-right: 1em;
+    }
+    .orgz-card-right h2{
+        font-size: 0.9em;
+    }
+    .orgz-card-right span{
+        font-size: 0.6em;
+        margin-top: 0.6em;
+    }
+    .orgz-card-right p{
+        margin-top: 0.6em;
+        font-size: 0.7em;
+        font-weight: 400;
+    }
+    .content-btn{
+        width: 50%;
+        font-size: 0.8em;
+        margin-top: 1em;
+    }
+
+}
