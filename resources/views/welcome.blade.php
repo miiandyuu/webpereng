@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>
-        Home Page | UNSCare
+        Home Page | Desa Pereng
     </title>
 
     <!-- Fonts -->
@@ -15,34 +15,35 @@
     <link href="{{asset('css/homepage.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/homepage-resp.css') }}">
     <link href="{{asset('https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css')}}" rel='stylesheet'>
+
+    {{-- Animation --}}
     <link rel="stylesheet" href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css') }}">
     <link rel="stylesheet" href="{{ asset('https://unpkg.com/aos@next/dist/aos.css') }}"/>
-  
     
 </head>
 <body>
     <header>
-        <div></div>
-        <div class="toggle"></div>
+        {{-- <div></div>
+        <div class="toggle"></div> --}}
     </header>
 
     <section class="home" id="home">
         <video src="{{ asset('videos/vid_home_back.mp4') }}" muted loop autoplay></video>
         <div class="overlay"></div>
         <div class="home-text">
-            <span>Welcome To</span>
-            <h1>Desa Pereng</h1>
-            <h2>Mojogedang, Karanganyar, Jawa Tengah</h2>
-            <a href="{{ url('#explain') }}" class="btn">Explore Now</a>
+            <span class="animate__animated animate__fadeIn animate__delay-1s">Welcome To</span>
+            <h1 class="animate__animated animate__fadeIn animate__delay-2s">Desa Pereng</h1>
+            <h2 class="animate__animated animate__fadeIn animate__delay-3s">Mojogedang, Karanganyar, Jawa Tengah</h2>
+            <a href="{{ url('#explain') }}" class="btn animate__animated animate__fadeIn animate__delay-3s">Explore Now</a>
         </div>
     </section>
 
     <section class="explain" id="explain">
         <div class="heading">
-            <h3>Sambutan Kepala Desa Pereng</h3>
+            <h3 data-aos="fade-down">Sambutan Kepala Desa Pereng</h3>
         </div>
         <div class="container">
-            <div class="explain-text">
+            <div class="explain-text" data-aos="fade-right">
                 <p><i>Assalaamu'alaikum wr. wb.</i>
                 </p><br>
                 <p>Website Desa Pereng ini memberikan informasi kepada seluruh pengunjung website tentang Desa Pereng, Mojogedan, Karanganyar, Jawa Tengah.
@@ -54,7 +55,7 @@
                 <p><b>Sriyanto S. Pd.</b></p>
                 <p>(Kepala Desa Pereng, Mojogedang)</p>
             </div>
-            <div class="explain-img">
+            <div class="explain-img" data-aos="fade-left">
                 <img src="{{ asset('images/lurah.png') }}">
             </div>
         </div>
@@ -62,52 +63,49 @@
 
     <section class="about" id="about">
         <div class="heading">
-            <h3>Video Profil</h3>
+            <h3 data-aos="fade-down">Video Profil</h3>
         </div>
         <div class="container ">
             <div class="about-text">
-                <div class="video-profil">
-                    <iframe src="https://www.youtube.com/embed/watch?v=_BlBZdNf9T0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    {{-- <video autoplay playsinline loop>
-                        <source src="{{ ('https://youtu.be/_BlBZdNf9T0') }}" type="video/mp4" width="450" height="450">
-                    </video> --}}
+                <div class="video-profil" data-aos="fade-up">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_BlBZdNf9T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <span>Jika video tidak bisa diputar, langsung nonton di <a href="{{ url('https://www.youtube.com/watch?v=_BlBZdNf9T0') }}" target="_blank" rel="noopener noreferrer">Youtube Desa Pereng!</a></span>
+                <span data-aos="fade-up">Jika video tidak bisa diputar, langsung nonton di <a href="{{ url('https://www.youtube.com/watch?v=_BlBZdNf9T0') }}" target="_blank" rel="noopener noreferrer">Youtube Desa Pereng!</a></span>
             </div>
         </div>
     </section>
 
     <section class="activities" id="activities">
         <div class="heading">
-            <h3>Kegiatan-Kegiatan Masyarakat</h3>
+            <h3 data-aos="fade-down">Kegiatan-Kegiatan Masyarakat</h3>
         </div>
         <div class="container-activities">
-            <div class="activities-box grid-col-span-2 img1">
+            <div class="activities-box grid-col-span-2 img1" data-aos="fade-up">
                 <div class="activities-content">
                     <h2><i>Batik Eco-print</i></h2>
                     <p>Batik Eco-Print merupakan bentuk kerajinan kain batik dengan menjiplak dedaunan pada kain sehingga menghasilkan motif yang indah.</p>
                     {{-- <a href="#" class="btn">Get App</a> --}}
                 </div>
             </div>
-            <div class="activities-box img2">
+            <div class="activities-box img2" data-aos="fade-up">
                 <div class="activities-content">
                     <h2><i>Belalang</i></h2>
                     <p>Belajar Bareng dan Dolan Bareng Bocah, kegiatan belajar dan berbagi ilmu bersama</p>
                 </div>
             </div>
-            <div class="activities-box img3">
+            <div class="activities-box img3" data-aos="fade-up">
                 <div class="activities-content">
                     <h2>Sosialisasi Dan Pengecekan Kesehatan</h2>
                     <p>Puskesmas Mojogedang & KKN UNS 2022 melakukan sosialisasi kepada masyarakat Desa Oereng dan melakukan pengecekan jentik disekitar rumah</p>
                 </div>
             </div>
-            <div class="activities-box grid-col-span-2 img4">
+            <div class="activities-box grid-col-span-2 img4" data-aos="fade-up">
                 <div class="activities-content">
                     <h2><i>Workshop Pembuatan Ecobrick</i></h2>
                     <p>Ecobrick merupakan alternatif bata konvensional yang ramah lingkungan dengan memanfaatkan botol dan sampah plastik</p>
                 </div>
             </div>
-            <div class="activities-box .grid-row-span-2 img5">
+            <div class="activities-box .grid-row-span-2 img5" data-aos="fade-up">
                 <div class="activities-content">
                     <h2><i>Senam Sehat Desa Pereng</i></h2>
                     <p>Acara Senam Sehat, Vaksin Booster, Donor Darah, dan Pengecekan Gula Darah di Balai Desa Pereng</p>
@@ -115,15 +113,15 @@
             </div>
         </div>
         <div class="content-btn">
-            <a href="{{ url('home') }}" class="btn-mid">More</a>
+            <a href="{{ url('article') }}" class="btn-mid">More</a>
         </div>
     </section>
 
     <section class="orgz" id="orgz">
         <div class="heading">
-            <h3>Organisasi - Organisasi</h3>
+            <h3 data-aos="fade-down">Organisasi - Organisasi</h3>
         </div>
-            <div class="container orgz-card">
+            <div class="container orgz-card animate__animated animate__fadeIn">
                 <div class="orgz-card-left">
                 </div>
                 <div class="orgz-card-right">
@@ -139,9 +137,9 @@
 
     <section class="about" id="about">
         <div class="heading">
-            <h3>Lokasi Desa</h3>
+            <h3 data-aos="fade-down">Lokasi Desa</h3>
         </div>
-        <div class="container ">
+        <div class="container" data-aos="zoom-in ">
             <div class="about-img wdth-100">
                 <img src="{{ asset('images/peta.png') }}" alt="peta_pereng">
             </div>
@@ -176,8 +174,9 @@
     </section>
 
     <script src="CostumStyle\js\HomePage\homepage.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+        AOS.init();
         const menuToggle = document.querySelector('.toggle');
         const home = document.querySelector('.home');
 

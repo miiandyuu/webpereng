@@ -18,8 +18,8 @@
     font-size: 1.5em;
     }
     .explain-img img{
-        width: 100%;
-        height: 80%;
+        width: 80%;
+        height: 65%;
     }
     .orgz-card-right, .orgz-card-left{
         flex: 1em;
@@ -83,7 +83,7 @@
         font-size: 0.9em;
     }
     .content-btn{
-        width: 27%;
+        width: 24%;
         font-size: 1em;
         padding: 0.8em 0.8em;
     }
@@ -238,6 +238,9 @@
         font-size: 0.9em;
         margin-top: 1em;
     }
+    .content-btn:hover{
+        width: 58%;
+    }
 }
 
 @media screen and (max-width: 330px) {
@@ -288,5 +291,7 @@
         font-size: 0.8em;
         margin-top: 1em;
     }
-
+    .content-btn:hover{
+        width: 58%;
+    }
 }
