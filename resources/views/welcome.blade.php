@@ -76,6 +76,7 @@
     </section>
 
     <section class="activities" id="activities">
+        {{-- <video src="{{ asset('videos/article-home-background.mp4') }}" muted loop autoplay></video> --}}
         <div class="heading">
             <h3 data-aos="fade-down">Kegiatan-Kegiatan Masyarakat</h3>
         </div>

@@ -7,17 +7,22 @@ body{
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
     min-height: 100vh;
-    background-color: var(--main-color);
+    background: var(--main-color);
     overflow: hidden;
+    
 }
 :root{
     --main-color:#548C2F;
     --second-color:#FFD449;
     --third-color: #ffffff;
 }
+.background{
+    width: 10em;
+    height: 10em;
+    display: flex;
+}
 .container{
     width: 100%;
-    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     text-align: center;

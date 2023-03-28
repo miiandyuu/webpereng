@@ -24,3 +24,7 @@ Route::get('/test', function () {
 Route::get('/home', function () {
     return view('home');
 });
+
+Route::get('/article', function () {
+    return view('/article/article-menu');
+});
